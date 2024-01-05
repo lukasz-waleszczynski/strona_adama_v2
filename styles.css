@@ -16,8 +16,9 @@ body {
 .header-contact {
     display: flex;
     justify-content: right;
+    max-width: 192rem;
     flex-wrap: wrap;
-    padding: 1rem;
+    padding-bottom: 2rem;
     font-size: 1.6rem;
 }
 
@@ -36,7 +37,10 @@ body {
 nav {
     display: flex;
     justify-content: right;
+    max-width: 192rem;
     font-size: 2rem;
+    padding-bottom: 4rem;
+    color: 272932;
 
     ul {
         list-style-type: none;
@@ -60,9 +64,101 @@ nav {
     background-image: url("/pics/drzwi_pics/biale_drzwi_otwarte.jpg");
     background-size: cover;
     background-position: center;
+    color: #272932;
     font-size: 3rem;
     text-align: center;
     padding-top: 20rem;
     padding-bottom: 20rem;
     margin: 0 auto;
 }
+
+/* ogólne ustawienia sekcji 2 (ofertowej) */
+#offer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: #272932;
+}
+
+/* sekcja 2 oferta ustawienia tekstu */
+.section2-offer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+/* sekcja 2 oferta ustawienia tekstu w paragrafie */
+.section2-offer-text p {
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+/* główne ustawienia listy, przystosowanie jej do pracy ze zdjęciami */
+.section2-offer-tiles ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 192rem;
+    margin: 0 auto; /* wycentrowanie siatki */
+    padding: 2rem 2rem; /* padding dookoła siatki*/
+  }
+  
+  /* dalsze ustawienia siatki, tym razem dla konkretnego kafelka */
+  .section2-offer-tiles li {
+    flex: 1;
+    min-width: 40rem;
+    min-height: 40rem;
+    background-size: cover;
+    background-position: center;
+    color: #FFFBFE;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .section2-offer-tiles li:nth-child(1) {
+    background-image: url('pics/drzwi_pics/otwarte_drzwi_ciemnosc.jpg');
+  }
+  
+  .section2-offer-tiles li:nth-child(2) {
+    background-image: url('pics/okna_pics/uszczelnianie_okna.jpg');
+  }
+
+  .section2-offer-tiles li:nth-child(3) {
+    background-image: url('pics/uslugi/hurt.jpg');
+  }
+
+  .section2-offer-tiles li:nth-child(4) {
+    background-image: url('pics/uslugi/naprawa.jpg');
+  }
+
+  .section2-offer-tiles li:nth-child(5) {
+    background-image: url('path/to/image2.jpg');
+  }
+
+  .section2-offer-tiles li:nth-child(6) {
+    background-image: url('path/to/image2.jpg');
+  }
+
+  .section2-offer-tiles li:nth-child(7) {
+    background-image: url('path/to/image2.jpg');
+  }
+
+  .section2-offer-tiles li:nth-child(8) {
+    background-image: url('path/to/image2.jpg');
+  }
+
+  .section2-offer-tiles li:nth-child(9) {
+    background-image: url('path/to/image2.jpg');
+  }
+  
+  @media (max-width: 1920px) {
+    .section2-offer-tiles ul {
+      max-width: 100%;
+    }
+  }
