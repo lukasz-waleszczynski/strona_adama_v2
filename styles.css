@@ -1,6 +1,68 @@
+/* zaimportowane ikonki kontaktowe */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
 
+/* root - ustawienia wstępne do użycia jednostek rem */
 :root {
     font-size: 62.5%;
 }
 
+/* body*/
+body {
+    background-color: #FFFBFE;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* główne ustawienia headera */
+.header-contact {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+
+/* główne ustawienia paragrafów headera - telefon i mail */
+.header-contact p {
+    text-decoration: none;
+    padding-left: 2rem;
+}
+
+/* oddzielenie zaimportowanych ikonek od tekstu */
+.header-contact i {
+    padding-right: 0.5rem
+}
+
+/* pasek nawigacyjny w headerze */
+nav {
+    display: flex;
+    justify-content: right;
+    font-size: 2rem;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding-right: 0;
+    }
+    
+    li {
+        display: inline;
+        padding-left: 1rem;
+    }
+}
+
+/* fotografia okładkowa */
+.section1-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 192rem;
+    background-image: url("/pics/drzwi_pics/biale_drzwi_otwarte.jpg");
+    background-size: cover;
+    background-position: center;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    margin: 0 auto;
+}
