@@ -117,7 +117,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-shadow: 0.3rem 0.3rem 1rem black;
+    text-shadow: 0.1rem 0.1rem 3rem black;
     font-size: 4rem;
     font-weight: 600;
   }
@@ -212,7 +212,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-shadow: 0.3rem 0.3rem 1rem black;
   font-size: 1.6rem;
   position: relative;
   overflow: hidden;
@@ -233,4 +232,26 @@ nav {
   right: 0;
   padding: 1rem;
   background-color: #468189; /* Adjust the background color and opacity as needed */
+}
+
+/* Section door-joinery */
+#door-joinery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 192rem;
+  margin: 0 auto;
+  padding: 4rem 2rem; /* Adjust padding as needed */
+}
+
+#door-joinery img {
+  max-width: 80rem;
+}
+
+.door-joinery-text {
+  display: flexbox;
+  max-width: 80rem;
+  text-align: left;
+  font-size: 1.6rem;
+  padding-left: 3rem;
 }
