@@ -231,32 +231,40 @@ nav {
   left: 0;
   right: 0;
   padding: 1rem;
-  background-color: #468189; /* Adjust the background color and opacity as needed */
+  background-color: #468189; /* background tekstu*/
 }
 
-/* Section door-joinery */
+/* główne ustawienia sekcji stolarki drzwiowej */
 #door-joinery {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   max-width: 192rem;
   margin: 0 auto;
-  padding: 4rem 2rem; /* Adjust padding as needed */
+  padding: 4rem 2rem;
 }
 
+/* usunięcie stylu listy, aby pozbyć się czarnych punktorów */
+#door-joinery li {
+  list-style: none;
+}
+
+/* maksymalny rozmiar zdjęcia */
 #door-joinery img {
-  max-width: 80rem;
+  max-width: 70rem;
 }
 
+/* box z tekstem i jego ustawienia */
 .door-joinery-text {
+  color: #272932
   display: flexbox;
   max-width: 80rem;
   text-align: left;
-  font-size: 1.6rem;
+  font-size: 2rem;
   padding-left: 3rem;
 }
 
-/* Section door-joinery */
+/* główne ustawienia sekcji stolarki okiennej */
 #window-joinery {
   display: flex;
   flex-wrap: wrap;
@@ -267,14 +275,37 @@ nav {
   padding: 4rem 2rem; /* Adjust padding as needed */
 }
 
-#window-joinery img {
-  max-width: 80rem;
+/* usunięcie stylu listy, aby pozbyć się czarnych punktorów */
+#window-joinery li {
+  list-style: none;
 }
 
+/* maksymalny rozmiar zdjęcia */
+#window-joinery img {
+  max-width: 70rem;
+}
+
+/* box z tekstem i jego ustawienia */
 .window-joinery-text {
+  color: #272932
   display: flexbox;
   max-width: 80rem;
   text-align: right;
-  font-size: 1.6rem;
+  font-size: 2rem;
   padding-right: 3rem;
+}
+
+#additional-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  font-size: 1.6rem;
+  color: #272932;
+}
+
+#additional-services li {
+  list-style: none;
 }
