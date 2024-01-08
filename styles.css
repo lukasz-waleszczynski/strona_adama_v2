@@ -255,3 +255,25 @@ nav {
   font-size: 1.6rem;
   padding-left: 3rem;
 }
+
+/* Section door-joinery */
+#window-joinery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 192rem;
+  margin: 0 auto;
+  padding: 4rem 2rem; /* Adjust padding as needed */
+}
+
+#window-joinery img {
+  max-width: 80rem;
+}
+
+.window-joinery-text {
+  display: flexbox;
+  max-width: 80rem;
+  text-align: left;
+  font-size: 1.6rem;
+  padding-left: 3rem;
+}
