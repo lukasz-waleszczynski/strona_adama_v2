@@ -261,6 +261,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  flex-direction: row-reverse;
   max-width: 192rem;
   margin: 0 auto;
   padding: 4rem 2rem; /* Adjust padding as needed */
@@ -273,7 +274,7 @@ nav {
 .window-joinery-text {
   display: flexbox;
   max-width: 80rem;
-  text-align: left;
+  text-align: right;
   font-size: 1.6rem;
-  padding-left: 3rem;
+  padding-right: 3rem;
 }
