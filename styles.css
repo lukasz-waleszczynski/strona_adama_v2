@@ -30,7 +30,7 @@ body {
 
 /* oddzielenie zaimportowanych ikonek od tekstu */
 .header-contact i {
-    padding-right: 0.5rem
+    padding-right: 0.5rem;
 }
 
 /* pasek nawigacyjny w headerze */
@@ -256,7 +256,7 @@ nav {
 
 /* box z tekstem i jego ustawienia */
 .door-joinery-text {
-  color: #272932
+  color: #272932;
   display: flexbox;
   max-width: 80rem;
   text-align: left;
@@ -287,7 +287,7 @@ nav {
 
 /* box z tekstem i jego ustawienia */
 .window-joinery-text {
-  color: #272932
+  color: #272932;
   display: flexbox;
   max-width: 80rem;
   text-align: right;
@@ -316,3 +316,4 @@ nav {
   margin: 0;
   padding: 0;
 }
+
