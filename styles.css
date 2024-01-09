@@ -298,6 +298,7 @@ nav {
 #additional-services {
   padding-top: 4rem;
   color: #272932;
+  background-color: #CBD4C2;
 }
 
 /* sekcja 3 "dlaczego my" ustawienia tekstu */
@@ -315,5 +316,69 @@ nav {
   font-style: italic;
   margin: 0;
   padding: 0;
+}
+
+/* ostylowanie responsywnej galerii zdjęć */
+* {
+  box-sizing: border-box;
+}
+
+#our-projects {
+  text-align: center;
+  color: #272932;
+  font-size: 2rem;
+  background-color: #DEDEE0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -4px;
+}
+
+/* tworzenie dwóch kolumn będących obok siebie */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  width: 100%;
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* responsywny layout - tworzy dwie kolumny zamiast czterech*/
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* responsywny layout - tworzy kolumny obok siebie, zamiast na sobie */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+#footer {
+  color: #272932;
+  background-color: #A47963;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 192rem;
+  margin: 0 auto;
+  padding: 4rem 2rem;
 }
 
