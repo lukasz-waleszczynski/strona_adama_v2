@@ -177,6 +177,7 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     font-size: 2rem;
 }
 
@@ -370,15 +371,42 @@ nav {
   }
 }
 
+/* ogólne ustawienia stopki */
 #footer {
   color: #272932;
-  background-color: #A47963;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
   max-width: 192rem;
   margin: 0 auto;
   padding: 4rem 2rem;
 }
 
+/* ustawienia głównego kontenera w stopce */
+.footer-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ustawienia części nawigacyjnej, kontaktowej i optymalizacji w stopce */
+.footer-navigation,
+.footer-contact,
+.footer-searchengine {
+  flex: 1;
+  max-width: 30rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+/* ustawienia części optymalizacji search w stopce */
+.footer-searchengine {
+  margin-left: 2rem; /* Add margin between sections if desired */
+}
+
+/* ustawienia części copyright w stopce */
+.footer-copy {
+  flex: 1;
+  max-width: 30rem;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 2rem; /* Add margin above the copyright section if desired */
+}
