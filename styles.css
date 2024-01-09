@@ -296,16 +296,23 @@ nav {
 }
 
 #additional-services {
+  padding-top: 4rem;
+  color: #272932;
+}
+
+/* sekcja 3 "dlaczego my" ustawienia tekstu */
+.additional-services-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   font-size: 2rem;
-  font-size: 1.6rem;
-  color: #272932;
 }
 
-#additional-services li {
-  list-style: none;
+/* sekcja 3 "dlaczego my" ustawienia tekstu w paragrafie */
+.additional-services-text p {
+  font-style: italic;
+  margin: 0;
+  padding: 0;
 }
